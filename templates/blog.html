@@ -1,0 +1,54 @@
+{% extends 'nav.html' %}
+{% block content %}
+{% load static %}
+      <!-- news -->
+      <div class="news">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>Our</span>
+                     <h2>Latest News</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class=" col-md-4">
+                  <div class="latest">
+                     <figure><img src="{% static 'images/news1.jpg' %}" alt="#"/></figure>
+                     <span>15<br>  March</span>
+                     <div class="nostrud">
+                        <h3>Advancements in Sustainable Agriculture</h3>
+                        <p>Agricultural scientists and farmers are making significant strides in sustainable farming techniques. Recent innovations include the development of bio-fertilizers that reduce the need for chemical inputs, and precision agriculture technologies that optimize resource use. </p>
+                        <a class="read_more" href="news.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-md-4">
+                  <div class="latest box_desho">
+                     <figure><img src="{% static 'images/news2.jpg' %}" alt="#"/></figure>
+                     <span>20<br> April</span>
+                     <div class="nostrud">
+                        <h3>Climate Change Impact on Crop Production</h3>
+                        <p>A new report from the International Panel on Climate Change (IPCC) highlights the growing threat of climate change on global crop production. Rising temperatures, changing precipitation patterns, and more frequent extreme weather events.</p>
+                        <a class="read_more" href="news.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+              <div class=" col-md-4">
+                  <div class="latest">
+                     <figure><img src="{% static 'images/news3.jpg' %}" alt="#"/></figure>
+                     <span>25<br> April</span>
+                     <div class="nostrud">
+                        <h3>Technological Innovations in Agriculture</h3>
+                        <p>The agriculture sector is witnessing a technological revolution with the advent of advanced agri-tech solutions. Innovations such as drone technology for crop monitoring, AI-driven predictive analytics for pest management, and blockchain for supply chain transparency are transforming farming practices.</p>
+                        <a class="read_more" href="news.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end news -->
+       {% endblock %}
+     

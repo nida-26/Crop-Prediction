@@ -1,0 +1,37 @@
+{% extends 'nav.html' %}
+{% block content %}
+{% load static %}
+      <!-- about -->
+      <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-lg-6 col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>About Us</span>
+                     <h2>AGRICULTURE MARKET</h2>
+                     <p>The agriculture market is a dynamic and vital sector, fueling economies and providing essential resources globally. Advances in technology, sustainable farming practices, and innovative supply chain solutions are transforming the landscape, enhancing productivity and resilience. Farmers are now adopting precision agriculture, utilizing data analytics and IoT devices to optimize yields and reduce waste. Meanwhile, consumer demand for organic and locally-sourced produce is reshaping market trends, encouraging environmentally friendly practices. As climate change poses new challenges, the agriculture market's adaptability and innovation remain crucial for ensuring food security and promoting a sustainable future.</p>
+                     <a class="read_more" href="about">Learn More</a>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12">
+                  <div class="row d_flex">
+                   <div class="col-md-7">
+                     <div class="about_img">
+                        <figure><img src="{% static 'images/about_img.jpg' %}" alt="#"/>
+                        </figure>
+                     </div>
+                   </div>
+                   <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="{% static 'images/about_img1.jpg' %}" alt="#"/>
+                        </figure>
+                     </div>
+                   </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends 'nav.html' %}
+{% block content %}
+{% load static %}
+<!-- services -->
+      <div class="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>What We Do</span>
+                         <h2>SERVICES WE OFFER</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="services_box_main">
+                     <div  class="services_box text_align_left">
+                          <figure><img src="{% static 'images/service1.jpg' %}" alt="#"/></figure>
+                        <div class="veget">
+                           <h3>FRESH<br>VEGETABLES</h3>
+                           <p>Welcome to AgroPro, your go-to source for farm-fresh vegetables! Our primary offering includes a wide variety of fresh, seasonal vegetables. We grow everything from leafy greens to root vegetables, ensuring you have access to the freshest produce available. Our vegetables are grown using sustainable farming practices, ensuring high quality and great taste.</p>
+                        </div>
+                     </div>
+                     <a class="read_more" href="services">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+               <div class="services_box_main">
+                     <div  class="services_box text_align_left">
+                          <figure><img src="{% static 'images/service2.jpg' %}" alt="#"/></figure>
+                        <div class="veget">
+                           <h3>AGRICULTURE<br>PRODUCTS</h3>
+                           <p>Welcome to Fresh Harvest, where we are passionate about bringing you the finest agriculture products straight from our fields to your table. Discover our wide range of offerings:Indulge in a variety of freshly harvested vegetables, from crisp greens to robust root crops. Our vegetables are grown with care using sustainable farming practices, ensuring peak flavor and nutritional value.
+                           </p>
+                        </div>
+                     </div>
+                     <a class="read_more" href="services">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+               <div class="services_box_main">
+                     <div  class="services_box text_align_left">
+                          <figure><img src="{% static 'images/service3.jpg' %}" alt="#"/></figure>
+                        <div class="veget">
+                           <h3>ORGANIC<br>PRODUCTS</h3>
+                           <p>We provide a selection of organic produce. Our organic vegetables are grown without synthetic pesticides or fertilizers, offering you a healthier alternative while supporting eco-friendly farming practices. We take pride in offering a diverse selection of organic products that promote both your well-being and the sustainability of our environment.</p>
+                        </div>
+                     </div>
+                     <a class="read_more" href="services">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end services -->
+       {% endblock %}

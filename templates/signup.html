@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <!-- fevicon -->
+    <link rel="icon" href="{% static 'images/fevicon.png' %}" type="image/gif" />
+    <title>AgroPro | Signup</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <div class="login-box">
+            <div class="login-header">
+                <header>Sign Up</header>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="First Name" name="fname" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Last Name" name="lname" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Username" name="uname" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-field" placeholder="Email" name="email" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Password" name="pass1" autocomplete="off" required>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" placeholder="Confirm Password" name="pass2" autocomplete="off" required>
+            </div>
+            <div class="forgot">
+                <section>
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember me</label>
+                </section>
+            </div>
+            
+            <div class="input-submit">
+                <button class="submit-btn" id="submit"></button>
+                <label for="submit">Sign Up</label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

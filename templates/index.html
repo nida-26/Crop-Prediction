@@ -1,0 +1,353 @@
+{% extends 'nav.html' %}
+{% block content %}
+{% load static %}
+
+      <!-- about -->
+      <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-lg-6 col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>About Us</span>
+                     <h2>AGRICULTURE MARKET</h2>
+                     <p>The agriculture market is a dynamic and vital sector, fueling economies and providing essential resources globally. Advances in technology, sustainable farming practices, and innovative supply chain solutions are transforming the landscape, enhancing productivity and resilience. Farmers are now adopting precision agriculture, utilizing data analytics and IoT devices to optimize yields and reduce waste. Meanwhile, consumer demand for organic and locally-sourced produce is reshaping market trends, encouraging environmentally friendly practices. As climate change poses new challenges, the agriculture market's adaptability and innovation remain crucial for ensuring food security and promoting a sustainable future.</p>
+                     <a class="read_more" href="about">Learn More</a>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12">
+                  <div class="row d_flex">
+                   <div class="col-md-7">
+                     <div class="about_img">
+                        <figure><img src="{% static 'images/about_img.jpg' %}" alt="#"/>
+                        </figure>
+                     </div>
+                   </div>
+                   <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="{% static 'images/about_img1.jpg' %}" alt="#"/>
+                        </figure>
+                     </div>
+                   </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end about -->
+      <!-- services -->
+      <div class="services">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>What We Do</span>
+                         <h2>SERVICES WE OFFER</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="services_box_main">
+                     <div  class="services_box text_align_left">
+                          <figure><img src="{% static 'images/service1.jpg' %}" alt="#"/></figure>
+                        <div class="veget">
+                           <h3>FRESH<br>VEGETABLES</h3>
+                           <p>Welcome to AgroPro, your go-to source for farm-fresh vegetables! Our primary offering includes a wide variety of fresh, seasonal vegetables. We grow everything from leafy greens to root vegetables, ensuring you have access to the freshest produce available. Our vegetables are grown using sustainable farming practices, ensuring high quality and great taste.</p>
+                        </div>
+                     </div>
+                     <a class="read_more" href="services">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+               <div class="services_box_main">
+                     <div  class="services_box text_align_left">
+                          <figure><img src="{% static 'images/service2.jpg' %}" alt="#"/></figure>
+                        <div class="veget">
+                           <h3>AGRICULTURE<br>PRODUCTS</h3>
+                           <p>Welcome to Fresh Harvest, where we are passionate about bringing you the finest agriculture products straight from our fields to your table. Discover our wide range of offerings:Indulge in a variety of freshly harvested vegetables, from crisp greens to robust root crops. Our vegetables are grown with care using sustainable farming practices, ensuring peak flavor and nutritional value.
+                           </p>
+                        </div>
+                     </div>
+                     <a class="read_more" href="services">Read More</a>
+                  </div>
+               </div>
+               <div class="col-md-4">
+               <div class="services_box_main">
+                     <div  class="services_box text_align_left">
+                          <figure><img src="{% static 'images/service3.jpg' %}" alt="#"/></figure>
+                        <div class="veget">
+                           <h3>ORGANIC<br>PRODUCTS</h3>
+                           <p>We provide a selection of organic produce. Our organic vegetables are grown without synthetic pesticides or fertilizers, offering you a healthier alternative while supporting eco-friendly farming practices. We take pride in offering a diverse selection of organic products that promote both your well-being and the sustainability of our environment.</p>
+                        </div>
+                     </div>
+                     <a class="read_more" href="services">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end services -->
+      <!-- customers -->
+      <div class="customers">
+         <div class="clients_bg">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <div class="titlepage text_align_left">
+                         <span>Our Customers</span>
+                         <h2>TESTIMONAILS</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- start slider section -->
+         <div id="myCarousel" class="carousel slide clients_banner" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#myCarousel" data-slide-to="1"></li>
+               <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                        <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="custom">
+                                 <div class="d_flex">
+                                    <i><img src="{% static 'images/customer1.jpg' %}" alt="#"/></i>
+                                    <div class="clint">
+                                      <h4>Jane Smith</h4>
+                                      <span>Organic Farmer</span>
+                                    </div>
+                                 </div>
+                                 <p>As an organic farmer, predicting crop yields accurately is crucial for planning and sustainability. AgroPro has been a game-changer for me. The detailed predictions provided by the platform have helped me optimize my planting schedule and improve my crop yields significantly. The user-friendly interface and real-time data make it easy to stay informed and make proactive decisions. I highly recommend this service to any farmer looking to enhance their agricultural practices.</p>
+                                  <img src="{% static 'images/test.png' %}" alt="#"/>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="custom">
+                                 <div class="d_flex">
+                                    <i><img src="{% static 'images/customer2.jpg' %}" alt="#"/></i>
+                                    <div class="clint">
+                                      <h4>Raj Patel</h4>
+                                      <span>Agricultural Cooperative Leader</span>
+                                    </div>
+                                 </div>
+                                  <p>Running an agricultural cooperative means we need reliable data to support our farmers effectively. AgroPro has provided us with invaluable crop prediction tools that have enabled our members to increase their productivity and profitability. The accuracy of the predictions and the support from the team have been outstanding. This platform has truly empowered our cooperative, and we are grateful for the positive impact it has had on our community.</p>
+                                  <img src="{% static 'images/test.png' %}" alt="#"/>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                       <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="custom">
+                                 <div class="d_flex">
+                                    <i><img src="{% static 'images/customer3.jpg' %}" alt="#"/></i>
+                                    <div class="clint">
+                                      <h4>Maria Gonzalez</h4>
+                                      <span>Small-Scale Farmer</span>
+                                    </div>
+                                 </div>
+                                  <p>Being a small-scale farmer, I often struggled with understanding the best times to plant and harvest my crops. AgroPro has changed that for me. The easy-to-use platform offers precise crop predictions and valuable tips that have helped me make informed decisions. Since using this service, my yields have improved, and I feel more confident about my farming practices. It's a must-have tool for any farmer looking to optimize their production.</p>
+                                  <img src="{% static 'images/test.png' %}" alt="#"/>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="custom">
+                                 <div class="d_flex">
+                                    <i><img src="{% static 'images/customer4.jpg' %}" alt="#"/></i>
+                                    <div class="clint">
+                                      <h4>Ahmed El-Sayed</h4>
+                                      <span>Agronomist</span>
+                                    </div>
+                                 </div>
+                                  <p>As an agronomist working with various farms, I rely on accurate data to advise my clients. AgroPro has been an excellent resource, providing reliable crop predictions that have made my job much easier. The detailed reports and real-time updates have been particularly helpful in planning and advising on best practices. I have seen firsthand the positive impact this platform has on farming outcomes, and I highly recommend it to anyone in the agriculture industry.</p>
+                                  <img src="{% static 'images/test.png' %}" alt="#"/>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption relative">
+                       <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="custom">
+                                 <div class="d_flex">
+                                    <i><img src="{% static 'images/customer5.jpg' %}" alt="#"/></i>
+                                    <div class="clint">
+                                      <h4>Emily Turner</h4>
+                                      <span>Vineyard Owner</span>
+                                    </div>
+                                 </div>
+                                  <p>AgroPro has revolutionized how I manage my vineyard. The precise crop predictions and timely insights have led to better harvests and improved wine quality. i am glad that i worked with AgroPro. I couldn't be happier with the results!</p>
+                                  <img src="{% static 'images/test.png' %}" alt="#"/>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="custom">
+                                 <div class="d_flex">
+                                    <i><img src="{% static 'images/customer6.jpg' %}" alt="#"/></i>
+                                    <div class="clint">
+                                      <h4>Carlos Mendes</h4>
+                                      <span>Vegetable Grower</span>
+                                    </div>
+                                 </div>
+                                  <p>The crop prediction tools from AgroPro have been a game-changer for my vegetable farm. With accurate forecasts and easy-to-understand data, my yields have increased, and my farming has never been more efficient. Highly recommend!</p>
+                                  <img src="{% static 'images/test.png' %}" alt="#"/>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
+      </div>
+      <!-- end customers -->
+      <!-- choose -->
+      <div class="choose">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>Whay choose us</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="point text_align_center">
+                     <h3>300+</h3>
+                     <span>Regula <br>Customers</span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="point text_align_center">
+                     <h3>30+</h3>
+                     <span>Professional <br>Engineering</span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="point text_align_center">
+                     <h3>300+</h3>
+                     <span>Points of Sale  <br>Goods</span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="point text_align_center">
+                     <h3>30+</h3>
+                     <span>Awards <br>Won</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- choose -->
+      <!-- news -->
+      <div class="news">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>Our</span>
+                     <h2>Latest News</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class=" col-md-4">
+                  <div class="latest">
+                     <figure><img src="{% static 'images/news1.jpg' %}" alt="#"/></figure>
+                     <span>15<br>  March</span>
+                     <div class="nostrud">
+                        <h3>Advancements in Sustainable Agriculture</h3>
+                        <p>Agricultural scientists and farmers are making significant strides in sustainable farming techniques. Recent innovations include the development of bio-fertilizers that reduce the need for chemical inputs, and precision agriculture technologies that optimize resource use. </p>
+                        <a class="read_more" href="news.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-md-4">
+                  <div class="latest box_desho">
+                     <figure><img src="{% static 'images/news2.jpg' %}" alt="#"/></figure>
+                     <span>20<br> April</span>
+                     <div class="nostrud">
+                        <h3>Climate Change Impact on Crop Production</h3>
+                        <p>A new report from the International Panel on Climate Change (IPCC) highlights the growing threat of climate change on global crop production. Rising temperatures, changing precipitation patterns, and more frequent extreme weather events.</p>
+                        <a class="read_more" href="news.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+              <div class=" col-md-4">
+                  <div class="latest">
+                     <figure><img src="{% static 'images/news3.jpg' %}" alt="#"/></figure>
+                     <span>25<br> April</span>
+                     <div class="nostrud">
+                        <h3>Technological Innovations in Agriculture</h3>
+                        <p>The agriculture sector is witnessing a technological revolution with the advent of advanced agri-tech solutions. Innovations such as drone technology for crop monitoring, AI-driven predictive analytics for pest management, and blockchain for supply chain transparency are transforming farming practices.</p>
+                        <a class="read_more" href="news.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end news -->
+      <!-- contact -->
+      <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage text_align_center">
+                     <span>Our Contact</span>
+                     <h2>Requste A Call Back</h2>
+                  </div>
+               </div>
+               <div class="col-md-8 offset-md-2">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="form_control" placeholder="Your Name" type="type" name=" Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="form_control" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                       
+                        <div class="col-md-12">
+                           <input class="textarea" placeholder="Message" type="type" name="message"> 
+                        </div>
+                        <div class="col-md-12">
+                           <div class="group_btn">
+                           <button id="i1" class="send_btn">Send</button>
+                            <button id="i2" class="send_btn">location</button>
+                         </div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="430" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+         </div>
+      </div>
+      <!-- end contact -->
+       {% endblock %}
